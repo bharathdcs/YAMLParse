@@ -1,10 +1,10 @@
-# importing the "tarfile" module
+# Script for extracting all the archived bundles in the case repo.
 import tarfile
 
 import os
 import sys
 
-walk_dir = "/Users/bharathdevaraju/Documents/GitHub/cloud-pak/repo/case"
+walk_dir = "<repo-folder>/repo/case"
 
 print('walk_dir = ' + walk_dir)
 i=0
