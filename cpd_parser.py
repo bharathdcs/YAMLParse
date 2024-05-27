@@ -1,5 +1,5 @@
 
-
+# script to parse the specifications and extract the package information
 import yaml
 import os
 import sys
@@ -14,10 +14,7 @@ class ImageDigest:
     tag = ""
     digest = ""
 
-walk_dir = "/Users/bharathdevaraju/Documents/CPD-CaseRepo/cloud-pak-master/repo/case"
-
-
-#walk_dir = "/Users/bharathdevaraju/Documents/CPD-CaseRepo/zen-digests-vnext-dev"
+walk_dir = "<repo directory>/repo/case"
 
 print('walk_dir = ' + walk_dir)
 i = 0
